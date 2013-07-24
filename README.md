@@ -35,6 +35,29 @@ In order to properly install python-tweetsay, you will need to both install pyth
 11. The prompt will now ask you to enter the tokens you just generated. Please do so for Consumer key, Consumer secret, Access token and Access token secret.
 12. You are done! You can now enjoy the awesomeness that is tweets in your terminal! Type tweetsay and you can test it out :)
 
+Sample Output
+-------------
+  _____________________________________
+/ Boot up: Gmail's hidden ads, Xbox's   \
+| secret recording, recover your iPhone |
+| and more http://t.co/NSDjGOxprk -     |
+\ guardiantech                          /
+  -------------------------------------
+                                      \
+                              IIII     \
+                   ZZ~      ?IIIIII?    \
+             : I7=?+Z$$$7ZI7IIIII..,I:   \
+             ,7+?IIII$$$$IIIIIIII,.III7, /
+                +?IIIIIIIIIIIIIIIIIII,
+                   I7IIIIIIIIIIIIIIII
+                   IIIIIIIIIII?+:,=I
+                =?IIIIIIIIIII:::::::
+  ,=        ,=IIIIIIIIIIIII:::::,:,
+     ~?I??IIIIIIIIIIIIIIII:::,:::
+        +?IIIIIIIIIIIIIII:::::::
+           ~IIIIIIIIIIIII:::::
+                 ~?IIIIII=
+
 Notes
 -----
 Python-tweetsay is a modified verion of cowsay-py. Cowsay-py was written by Jesse Chan-Norris <jcn@pith.org> and is also licensed under the GNU LGPL version 3.0
