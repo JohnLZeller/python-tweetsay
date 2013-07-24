@@ -37,26 +37,28 @@ In order to properly install python-tweetsay, you will need to both install pyth
 
 Sample Output
 -------------
->  _____________________________________
->/ Boot up: Gmail's hidden ads, Xbox's   \
->| secret recording, recover your iPhone |
->| and more http://t.co/NSDjGOxprk -     |
->\ guardiantech                          /
->  -------------------------------------
->                                      \
->                              IIII     \
->                   ZZ~      ?IIIIII?    \
->             : I7=?+Z$$$7ZI7IIIII..,I:   \
->             ,7+?IIII$$$$IIIIIIII,.III7, /
->                +?IIIIIIIIIIIIIIIIIII,
->                   I7IIIIIIIIIIIIIIII
->                   IIIIIIIIIII?+:,=I
->                =?IIIIIIIIIII:::::::
->  ,=        ,=IIIIIIIIIIIII:::::,:,
->     ~?I??IIIIIIIIIIIIIIII:::,:::
->        +?IIIIIIIIIIIIIII:::::::
->           ~IIIIIIIIIIIII:::::
->                 ~?IIIIII=
+<pre>
+_____________________________________
+/ Boot up: Gmail's hidden ads, Xbox's   \
+| secret recording, recover your iPhone |
+| and more http://t.co/NSDjGOxprk -     |
+\ guardiantech                          /
+  -------------------------------------
+                                      \
+                              IIII     \
+                   ZZ~      ?IIIIII?    \
+             : I7=?+Z$$$7ZI7IIIII..,I:   \
+             ,7+?IIII$$$$IIIIIIII,.III7, /
+                +?IIIIIIIIIIIIIIIIIII,
+                   I7IIIIIIIIIIIIIIII
+                   IIIIIIIIIII?+:,=I
+                =?IIIIIIIIIII:::::::
+  ,=        ,=IIIIIIIIIIIII:::::,:,
+     ~?I??IIIIIIIIIIIIIIII:::,:::
+        +?IIIIIIIIIIIIIII:::::::
+           ~IIIIIIIIIIIII:::::
+                 ~?IIIIII=
+</pre>
 
 Notes
 -----
