@@ -37,6 +37,7 @@ In order to properly install python-tweetsay, you will need to both install pyth
 
 Sample Output
 -------------
+"""
   _____________________________________
 / Boot up: Gmail's hidden ads, Xbox's   \
 | secret recording, recover your iPhone |
@@ -57,6 +58,7 @@ Sample Output
         +?IIIIIIIIIIIIIII:::::::
            ~IIIIIIIIIIIII:::::
                  ~?IIIIII=
+"""
 
 Notes
 -----
