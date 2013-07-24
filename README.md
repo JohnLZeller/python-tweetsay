@@ -1,6 +1,6 @@
 python-tweetsay
 ===============
-Copyright 2013 John Zeller <johnlzeller@gmail.com>
+Copyright 2013 John Zeller <johnlzeller@gmail.com><br>
 Licensed under the GNU LGPL version 3.0
 
 Description
@@ -9,7 +9,7 @@ Python-tweetsay gives you the ability to bring the most recent twitter update fr
 
 Dependancies
 ------------
-python-twitter [<http://code.google.com/p/python-twitter/>](http://code.google.com/p/python-twitter/)
+[python-twitter](http://code.google.com/p/python-twitter/)
 
 System Requirements
 -------------------
@@ -20,7 +20,7 @@ How to Install
 In order to properly install python-tweetsay, you will need to both install python-twitter and also setup a Twitter app on your personal Twitter account.
 
 1. Install python-twitter by going [here](http://code.google.com/p/python-twitter/)
-2. Go to [<https://dev.twitter.com/user/login?destination=home>](https://dev.twitter.com/user/login?destination=home) and sign-in with your normal Twitter credentials
+2. Click [here](https://dev.twitter.com/user/login?destination=home) and sign-in with your normal Twitter credentials
 3. Once signed in, click your avatar in the upper-righthand corner of the screen and select 'My applications' from the drop-down menu
 4. Select 'Create a new application'
 5. Use the following to fill out the form:
