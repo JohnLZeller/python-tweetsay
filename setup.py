@@ -74,8 +74,6 @@ def generate_conf():
         os.remove('tweetsay.conf')
     except:
         pass
-    # api = twitter.Api(consumer_key='Uz00Z196A2HhDZD0Ngkg', consumer_secret='zohYxLdAxIIOgJs9MUcmM0StDBhmVxXsBtDuSJ8wY', 
-    #    access_token_key='588065061-xIDtBBTVQxNXGd2x9Qre9hGNk7sD6YEYjaSMYOYw',  access_token_secret='SbHIEyCwKvDdzQsWvDBx7UDrnQS5tm49j0w2ymkO8')
     print "Before proceeding with the installation, we are going to need to know some information from your Twitter account."
     print "If you have not yet done so, go follow the directions in your README file to get the appropriate information."
     print "Please enter the following information EXACTLY as shown on your dev.twitter.com account page."
