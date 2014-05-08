@@ -23,7 +23,7 @@ from distutils.core import setup
 
 def install_mac(user):
     print "Installing for Mac OS X"
-    generate_conf()
+    generate_conf('mac')
     print "Moving python-tweetsay to python third-party module directory"
     dest_dir = '/Library/Python/2.7/site-packages/python-tweetsay'
     tweetsay_files = os.listdir('./')
@@ -45,7 +45,7 @@ def install_mac(user):
 
 def install_linux(user):
     print "Installing for Linux"
-    generate_conf()
+    generate_conf('linux')
     print "Moving python-tweetsay to python third-party module directory"
     dest_dir = '/usr/local/lib/python2.7/python-tweetsay'
     tweetsay_files = os.listdir('./')
@@ -66,12 +66,16 @@ def install_linux(user):
     f.write('tweetsay\n')
     f.close()
 
-def generate_conf():
+def generate_conf(platform_name):
     print "Generating config file..."
+    if platform_name == 'mac':
+        platform_prefix = '/Library/Python/2.7/site-packages/python-tweetsay/'
+    else if platform_name == 'linux':
+        platform_prefix = '/usr/local/lib/python2.7/python-tweetsay/'
     try:
-        open('tweetsay.conf')
+        open(platform_prefix + 'tweetsay.conf')
         print "Removing old tweetsay.conf..."
-        os.remove('tweetsay.conf')
+        os.remove(platform_prefix + 'tweetsay.conf')
     except:
         pass
     print "Before proceeding with the installation, we are going to need to know some information from your Twitter account."
@@ -83,7 +87,7 @@ def generate_conf():
     keys.append(raw_input('Access Token: '))
     keys.append(raw_input('Access Token Secret: '))
 
-    f = open('tweetsay.conf', 'wb')
+    f = open(platform_prefix + 'tweetsay.conf', 'wb')
     for key in keys:
         f.write(key + '\n')
     f.close()
