@@ -86,7 +86,10 @@ def getBorder(lines, index):
         return [ "|", "|" ]
 
 def initApi():
-    f = open('tweetsay.conf', 'r')
+    if system == 'Darwin':
+        f = open('/Library/Python/2.7/site-packages/python-tweetsay/tweetsay.conf', 'r')
+    elif system == 'Linux':
+        f = open('/usr/local/lib/python2.7/python-tweetsay/tweetsay.conf', 'r')
     keys = []
     for line in f:
         keys.append(line[:-1])  # The -1 removes the added '\n' newline character from the end of each line
